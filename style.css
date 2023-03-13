@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bat {
+  height: 80px;
+  width: 245px;
+  background-color: #f2ad43;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.wings-1 {
+  position: absolute;
+  top: 0px;
+  left: -51px;
+  background-color: #191919;
+  border-radius: 50%;
+  z-index: 1;
+  height: 98px;
+  width: 98px;
+}
+
+.wings-2 {
+  position: absolute;
+  top: 60px;
+  left: -29px;
+  background-color: #191919;
+  border-radius: 100%;
+  z-index: 1;
+  height: 150px;
+  width: 180px;
+}
+
+.wings-3 {
+  position: absolute;
+  top: 60px;
+  right: -29px;
+  background-color: #191919;
+  border-radius: 100%;
+  z-index: 1;
+  height: 150px;
+  width: 180px;
+}
+
+.wings-4 {
+  position: absolute;
+  top: 0px;
+  right: -51px;
+  background-color: #191919;
+  border-radius: 50%;
+  z-index: 1;
+  height: 98px;
+  width: 98px;
+}
+
+.head-bg {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: -50px;
+  right: 82.5px;
+  background: #191919;
+  border-radius: 12%;
+}
+
+.head-main {
+  height: 25px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 112px;
+  background: #f2ad43;
+  border-radius: 12%;
+}
+
+.head-circle-1 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 5px;
+  left: 127px;
+  background: #f2ad43;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.head-circle-2 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 5px;
+  left: 107px;
+  background: #f2ad43;
+  border-radius: 50%;
+  z-index: 100;
+}
